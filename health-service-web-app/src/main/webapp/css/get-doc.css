@@ -1,0 +1,19 @@
+.getdoc-container{
+	background-color:#1874a5;
+	display:flex;
+	align-items:center;
+	height:100vh;
+}
+.heading{
+	color:black;
+	font-family:"Roboto";
+	text-align:center;
+}
+.form-container{
+	background-color:#cce7e8;
+	border-style:solid;
+	border-width:5px;
+	border-color:white;
+	
+	
+}

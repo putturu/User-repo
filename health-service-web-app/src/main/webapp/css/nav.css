@@ -1,0 +1,16 @@
+.navbar-image {
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+}
+
+.navbar-items {
+    margin-left: auto;
+}
+.logo {
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    background-color:powderblue;
+}

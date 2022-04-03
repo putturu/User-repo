@@ -1,0 +1,36 @@
+
+*{
+	box-sizing:border-box;
+}
+.container{
+	background-image:radial-gradient(#33E6FF,#33C8FF);
+	background-size:cover;
+	display:flex;
+	align-items:center;
+}
+.reg-container{
+	background-color:transparent;
+	border-width:1px;
+	border-color:blue;
+	border-style:solid;
+	padding:20px;
+	margin:10px;
+	width:90%;
+}
+.heading{
+	color:blue;
+	font-family:"ROBOTO";
+	margin-top:10PX;
+}
+
+.button{
+margin:10px;
+color:black;
+border-radius:10px;
+border-width:0px;	
+}
+@media only screen and (max-width:700px) {
+  .container {
+    background-image:radial-gradient(#FFC300,#FFA233 );
+  }
+}

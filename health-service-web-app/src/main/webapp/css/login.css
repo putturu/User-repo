@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+.bg-container{
+	background-image:radial-gradient(#88b0d1,#5380a6,#13578f);
+	background-size:cover;
+	height:100vh;
+	width:100vw;
+	display:flex;
+	align-items:center;
+}
+.heading{
+	color:white;
+	font-family:"Roboto";
+	font-size:36px;
+	font-weight:500;
+}
+ .login-container{
+    background-color:transparent;
+    border-radius:15px;
+    border-color:blue;
+    border-width:1px;
+    border-style:solid;
+	
+} 

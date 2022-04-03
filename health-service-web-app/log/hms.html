@@ -1,0 +1,1649 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Mar 28 23:03:15 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8080-exec-2 thread">http-nio-8080-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Rakesh logged atMon Mar 28 23:03:16 IST 2022</td>
+</tr>
+
+<tr>
+<td>8462</td>
+<td title="http-nio-8080-exec-4 thread">http-nio-8080-exec-4</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.sapient.aem.web.GetAllDoctorsServlet category">com.sapient.aem.web.GetAllDoctorsServlet</td>
+<td title="Message">null</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">com.sapient.aem.exception.PatientCaseSheetException
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.service.PatientCaseSheetServiceImpl.getPatientCasesheetByDoctorId(PatientCaseSheetServiceImpl.java:74)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.web.GetPatientCaseSheetServlet.doGet(GetPatientCaseSheetServlet.java:29)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.lang.Thread.run(Thread.java:834)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: java.sql.SQLException
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.dao.PatientCaseSheetDaoImpl.getPatientCasesheetByDoctorId(PatientCaseSheetDaoImpl.java:226)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.service.PatientCaseSheetServiceImpl.getPatientCasesheetByDoctorId(PatientCaseSheetServiceImpl.java:71)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 25 more
+</td></tr>
+
+<tr>
+<td>12753</td>
+<td title="http-nio-8080-exec-6 thread">http-nio-8080-exec-6</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.sapient.aem.web.GetAllDoctorsServlet category">com.sapient.aem.web.GetAllDoctorsServlet</td>
+<td title="Message">null</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">com.sapient.aem.exception.PatientCaseSheetException
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.service.PatientCaseSheetServiceImpl.getPatientCasesheetByDoctorId(PatientCaseSheetServiceImpl.java:74)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.web.GetPatientCaseSheetServlet.doGet(GetPatientCaseSheetServlet.java:29)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.lang.Thread.run(Thread.java:834)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: java.sql.SQLException
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.dao.PatientCaseSheetDaoImpl.getPatientCasesheetByDoctorId(PatientCaseSheetDaoImpl.java:226)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.service.PatientCaseSheetServiceImpl.getPatientCasesheetByDoctorId(PatientCaseSheetServiceImpl.java:71)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 25 more
+</td></tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Mar 28 23:04:34 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8080-exec-1 thread">http-nio-8080-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Rakesh logged atMon Mar 28 23:04:34 IST 2022</td>
+</tr>
+
+<tr>
+<td>4875</td>
+<td title="http-nio-8080-exec-7 thread">http-nio-8080-exec-7</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.sapient.aem.web.GetAllDoctorsServlet category">com.sapient.aem.web.GetAllDoctorsServlet</td>
+<td title="Message">You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">com.sapient.aem.exception.PatientCaseSheetException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.service.PatientCaseSheetServiceImpl.getPatientCasesheetByDoctorId(PatientCaseSheetServiceImpl.java:74)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.web.GetPatientCaseSheetServlet.doGet(GetPatientCaseSheetServlet.java:29)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.lang.Thread.run(Thread.java:834)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1201)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.DelegatingStatement.executeQuery(DelegatingStatement.java:328)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.DelegatingStatement.executeQuery(DelegatingStatement.java:328)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.dao.PatientCaseSheetDaoImpl.getPatientCasesheetByDoctorId(PatientCaseSheetDaoImpl.java:212)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.service.PatientCaseSheetServiceImpl.getPatientCasesheetByDoctorId(PatientCaseSheetServiceImpl.java:71)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 25 more
+</td></tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Mar 28 23:13:17 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8080-exec-13 thread">http-nio-8080-exec-13</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Rakesh logged atMon Mar 28 23:13:18 IST 2022</td>
+</tr>
+
+<tr>
+<td>5285</td>
+<td title="http-nio-8080-exec-16 thread">http-nio-8080-exec-16</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.sapient.aem.web.GetAllDoctorsServlet category">com.sapient.aem.web.GetAllDoctorsServlet</td>
+<td title="Message">You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">com.sapient.aem.exception.PatientCaseSheetException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.service.PatientCaseSheetServiceImpl.getPatientCasesheetByDoctorId(PatientCaseSheetServiceImpl.java:74)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.web.GetPatientCaseSheetServlet.doGet(GetPatientCaseSheetServlet.java:29)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.lang.Thread.run(Thread.java:834)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1201)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.DelegatingStatement.executeQuery(DelegatingStatement.java:328)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.DelegatingStatement.executeQuery(DelegatingStatement.java:328)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.dao.PatientCaseSheetDaoImpl.getPatientCasesheetByDoctorId(PatientCaseSheetDaoImpl.java:212)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.service.PatientCaseSheetServiceImpl.getPatientCasesheetByDoctorId(PatientCaseSheetServiceImpl.java:71)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 25 more
+</td></tr>
+
+<tr>
+<td>145305</td>
+<td title="http-nio-8080-exec-22 thread">http-nio-8080-exec-22</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.sapient.aem.web.GetAllDoctorsServlet category">com.sapient.aem.web.GetAllDoctorsServlet</td>
+<td title="Message">You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">com.sapient.aem.exception.PatientCaseSheetException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.service.PatientCaseSheetServiceImpl.getPatientCasesheetByDoctorId(PatientCaseSheetServiceImpl.java:74)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.web.GetPatientCaseSheetServlet.doGet(GetPatientCaseSheetServlet.java:29)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.lang.Thread.run(Thread.java:834)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1201)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.DelegatingStatement.executeQuery(DelegatingStatement.java:328)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.DelegatingStatement.executeQuery(DelegatingStatement.java:328)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.dao.PatientCaseSheetDaoImpl.getPatientCasesheetByDoctorId(PatientCaseSheetDaoImpl.java:212)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.service.PatientCaseSheetServiceImpl.getPatientCasesheetByDoctorId(PatientCaseSheetServiceImpl.java:71)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 25 more
+</td></tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Mar 28 23:16:37 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8080-exec-2 thread">http-nio-8080-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Rakesh logged atMon Mar 28 23:16:39 IST 2022</td>
+</tr>
+
+<tr>
+<td>5770</td>
+<td title="http-nio-8080-exec-6 thread">http-nio-8080-exec-6</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.sapient.aem.web.GetAllDoctorsServlet category">com.sapient.aem.web.GetAllDoctorsServlet</td>
+<td title="Message">Column 'patient_case_sheet_id ' not found.</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">com.sapient.aem.exception.PatientCaseSheetException: Column 'patient_case_sheet_id ' not found.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.service.PatientCaseSheetServiceImpl.getPatientCasesheetByDoctorId(PatientCaseSheetServiceImpl.java:74)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.web.GetPatientCaseSheetServlet.doGet(GetPatientCaseSheetServlet.java:29)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.lang.Thread.run(Thread.java:834)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: java.sql.SQLException: Column 'patient_case_sheet_id ' not found.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.DelegatingResultSet.getInt(DelegatingResultSet.java:631)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.dbcp.dbcp2.DelegatingResultSet.getInt(DelegatingResultSet.java:631)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.dao.PatientCaseSheetDaoImpl.populatePatientCaseSheet(PatientCaseSheetDaoImpl.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.dao.PatientCaseSheetDaoImpl.getPatientCasesheetByDoctorId(PatientCaseSheetDaoImpl.java:217)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.service.PatientCaseSheetServiceImpl.getPatientCasesheetByDoctorId(PatientCaseSheetServiceImpl.java:71)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 25 more
+</td></tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Mar 28 23:18:28 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>2</td>
+<td title="http-nio-8080-exec-3 thread">http-nio-8080-exec-3</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.sapient.aem.web.GetAllDoctorsServlet category">com.sapient.aem.web.GetAllDoctorsServlet</td>
+<td title="Message">JSP file [&amp;#47;WEB-INF&amp;#47;views&amp;#47;show-all-patient-case-sheet.jsp] not found</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">javax.servlet.ServletException: JSP file [&amp;#47;WEB-INF&amp;#47;views&amp;#47;show-all-patient-case-sheet.jsp] not found
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:400)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:368)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:578)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:517)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.web.GetPatientCaseSheetServlet.doGet(GetPatientCaseSheetServlet.java:32)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.lang.Thread.run(Thread.java:834)
+</td></tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Mar 29 12:41:08 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8080-exec-5 thread">http-nio-8080-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 12:41:09 IST 2022</td>
+</tr>
+
+<tr>
+<td>175240</td>
+<td title="http-nio-8080-exec-7 thread">http-nio-8080-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 12:44:04 IST 2022</td>
+</tr>
+
+<tr>
+<td>321232</td>
+<td title="http-nio-8080-exec-5 thread">http-nio-8080-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 12:46:30 IST 2022</td>
+</tr>
+
+<tr>
+<td>852623</td>
+<td title="http-nio-8080-exec-3 thread">http-nio-8080-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 12:55:22 IST 2022</td>
+</tr>
+
+<tr>
+<td>9785519</td>
+<td title="http-nio-8080-exec-10 thread">http-nio-8080-exec-10</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 15:24:15 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Mar 29 15:28:55 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8080-exec-5 thread">http-nio-8080-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 15:28:56 IST 2022</td>
+</tr>
+
+<tr>
+<td>66652</td>
+<td title="http-nio-8080-exec-2 thread">http-nio-8080-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 15:30:03 IST 2022</td>
+</tr>
+
+<tr>
+<td>151738</td>
+<td title="http-nio-8080-exec-8 thread">http-nio-8080-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 15:31:28 IST 2022</td>
+</tr>
+
+<tr>
+<td>230877</td>
+<td title="http-nio-8080-exec-2 thread">http-nio-8080-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 15:32:47 IST 2022</td>
+</tr>
+
+<tr>
+<td>1166276</td>
+<td title="http-nio-8080-exec-9 thread">http-nio-8080-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 15:48:23 IST 2022</td>
+</tr>
+
+<tr>
+<td>2150765</td>
+<td title="http-nio-8080-exec-3 thread">http-nio-8080-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 16:04:47 IST 2022</td>
+</tr>
+
+<tr>
+<td>2292084</td>
+<td title="http-nio-8080-exec-7 thread">http-nio-8080-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 16:07:08 IST 2022</td>
+</tr>
+
+<tr>
+<td>2975093</td>
+<td title="http-nio-8080-exec-2 thread">http-nio-8080-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atTue Mar 29 16:18:31 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Wed Mar 30 08:37:27 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atWed Mar 30 08:42:33 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Mar 31 11:45:29 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atThu Mar 31 11:45:40 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Mar 31 12:16:28 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atThu Mar 31 12:16:29 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Mar 31 17:30:39 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atThu Mar 31 17:30:40 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Mar 31 20:39:16 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atThu Mar 31 20:39:17 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Apr 01 09:54:31 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atFri Apr 01 09:54:32 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Apr 01 11:02:09 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td title="http-nio-8081-exec-5 thread">http-nio-8081-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atFri Apr 01 11:02:09 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Apr 01 21:28:20 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td title="http-nio-8081-exec-4 thread">http-nio-8081-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atFri Apr 01 21:40:50 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Apr 01 21:47:11 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atFri Apr 01 21:47:12 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Apr 01 22:44:40 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atFri Apr 01 22:44:41 IST 2022</td>
+</tr>
+
+<tr>
+<td>179688</td>
+<td title="http-nio-8081-exec-1 thread">http-nio-8081-exec-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.sapient.aem.web.AddDoctorServlet category">com.sapient.aem.web.AddDoctorServlet</td>
+<td title="Message">JSP file [&amp;#47;doctor-registration.jsp] not found</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">javax.servlet.ServletException: JSP file [&amp;#47;doctor-registration.jsp] not found
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:400)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:368)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:578)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:517)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.web.AddDoctorServlet.doGet(AddDoctorServlet.java:69)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.web.AddDoctorServlet.doPost(AddDoctorServlet.java:83)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.lang.Thread.run(Thread.java:834)
+</td></tr>
+
+<tr>
+<td>328968</td>
+<td title="http-nio-8081-exec-4 thread">http-nio-8081-exec-4</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.sapient.aem.web.AddDoctorServlet category">com.sapient.aem.web.AddDoctorServlet</td>
+<td title="Message">JSP file [&amp;#47;doctor-registration.jsp] not found</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">javax.servlet.ServletException: JSP file [&amp;#47;doctor-registration.jsp] not found
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:400)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:368)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:578)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:517)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.web.AddDoctorServlet.doGet(AddDoctorServlet.java:69)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sapient.aem.web.AddDoctorServlet.doPost(AddDoctorServlet.java:83)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.lang.Thread.run(Thread.java:834)
+</td></tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 02 15:13:45 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:25:22 IST 2022</td>
+</tr>
+
+<tr>
+<td>208951</td>
+<td title="http-nio-8081-exec-5 thread">http-nio-8081-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:28:51 IST 2022</td>
+</tr>
+
+<tr>
+<td>219497</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:29:01 IST 2022</td>
+</tr>
+
+<tr>
+<td>273839</td>
+<td title="http-nio-8081-exec-9 thread">http-nio-8081-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:29:56 IST 2022</td>
+</tr>
+
+<tr>
+<td>280560</td>
+<td title="http-nio-8081-exec-1 thread">http-nio-8081-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:30:02 IST 2022</td>
+</tr>
+
+<tr>
+<td>331053</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:30:53 IST 2022</td>
+</tr>
+
+<tr>
+<td>462354</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:33:04 IST 2022</td>
+</tr>
+
+<tr>
+<td>624694</td>
+<td title="http-nio-8081-exec-9 thread">http-nio-8081-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:35:47 IST 2022</td>
+</tr>
+
+<tr>
+<td>749416</td>
+<td title="http-nio-8081-exec-4 thread">http-nio-8081-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:37:51 IST 2022</td>
+</tr>
+
+<tr>
+<td>788543</td>
+<td title="http-nio-8081-exec-5 thread">http-nio-8081-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:38:30 IST 2022</td>
+</tr>
+
+<tr>
+<td>911497</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:40:33 IST 2022</td>
+</tr>
+
+<tr>
+<td>932424</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:40:54 IST 2022</td>
+</tr>
+
+<tr>
+<td>979651</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:41:41 IST 2022</td>
+</tr>
+
+<tr>
+<td>1007201</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:42:09 IST 2022</td>
+</tr>
+
+<tr>
+<td>1367206</td>
+<td title="http-nio-8081-exec-1 thread">http-nio-8081-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:48:09 IST 2022</td>
+</tr>
+
+<tr>
+<td>1392553</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:48:34 IST 2022</td>
+</tr>
+
+<tr>
+<td>1409525</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:48:51 IST 2022</td>
+</tr>
+
+<tr>
+<td>1525893</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:50:48 IST 2022</td>
+</tr>
+
+<tr>
+<td>1545126</td>
+<td title="http-nio-8081-exec-9 thread">http-nio-8081-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:51:07 IST 2022</td>
+</tr>
+
+<tr>
+<td>1565798</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:51:28 IST 2022</td>
+</tr>
+
+<tr>
+<td>1569162</td>
+<td title="http-nio-8081-exec-4 thread">http-nio-8081-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:51:31 IST 2022</td>
+</tr>
+
+<tr>
+<td>1760246</td>
+<td title="http-nio-8081-exec-10 thread">http-nio-8081-exec-10</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:54:42 IST 2022</td>
+</tr>
+
+<tr>
+<td>1828227</td>
+<td title="http-nio-8081-exec-9 thread">http-nio-8081-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:55:50 IST 2022</td>
+</tr>
+
+<tr>
+<td>2008143</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:58:50 IST 2022</td>
+</tr>
+
+<tr>
+<td>2069516</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 15:59:51 IST 2022</td>
+</tr>
+
+<tr>
+<td>2156810</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:01:19 IST 2022</td>
+</tr>
+
+<tr>
+<td>2173476</td>
+<td title="http-nio-8081-exec-9 thread">http-nio-8081-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:01:35 IST 2022</td>
+</tr>
+
+<tr>
+<td>2204681</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:02:06 IST 2022</td>
+</tr>
+
+<tr>
+<td>2234407</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:02:36 IST 2022</td>
+</tr>
+
+<tr>
+<td>2322222</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:04:04 IST 2022</td>
+</tr>
+
+<tr>
+<td>2345927</td>
+<td title="http-nio-8081-exec-1 thread">http-nio-8081-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:04:28 IST 2022</td>
+</tr>
+
+<tr>
+<td>2377009</td>
+<td title="http-nio-8081-exec-4 thread">http-nio-8081-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:04:59 IST 2022</td>
+</tr>
+
+<tr>
+<td>2381546</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:05:03 IST 2022</td>
+</tr>
+
+<tr>
+<td>2449604</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:06:11 IST 2022</td>
+</tr>
+
+<tr>
+<td>2479002</td>
+<td title="http-nio-8081-exec-1 thread">http-nio-8081-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:06:41 IST 2022</td>
+</tr>
+
+<tr>
+<td>2523773</td>
+<td title="http-nio-8081-exec-4 thread">http-nio-8081-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:07:26 IST 2022</td>
+</tr>
+
+<tr>
+<td>2707517</td>
+<td title="http-nio-8081-exec-5 thread">http-nio-8081-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:10:29 IST 2022</td>
+</tr>
+
+<tr>
+<td>2716096</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:10:38 IST 2022</td>
+</tr>
+
+<tr>
+<td>2719699</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:10:42 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 02 16:11:22 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-1 thread">http-nio-8081-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:11:24 IST 2022</td>
+</tr>
+
+<tr>
+<td>41565</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:12:05 IST 2022</td>
+</tr>
+
+<tr>
+<td>45000</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:12:09 IST 2022</td>
+</tr>
+
+<tr>
+<td>74727</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:12:38 IST 2022</td>
+</tr>
+
+<tr>
+<td>77408</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:12:41 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 02 16:14:34 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:14:35 IST 2022</td>
+</tr>
+
+<tr>
+<td>36365</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:15:11 IST 2022</td>
+</tr>
+
+<tr>
+<td>83075</td>
+<td title="http-nio-8081-exec-9 thread">http-nio-8081-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:15:58 IST 2022</td>
+</tr>
+
+<tr>
+<td>178810</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:17:34 IST 2022</td>
+</tr>
+
+<tr>
+<td>280937</td>
+<td title="http-nio-8081-exec-5 thread">http-nio-8081-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:19:16 IST 2022</td>
+</tr>
+
+<tr>
+<td>421930</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:21:37 IST 2022</td>
+</tr>
+
+<tr>
+<td>436147</td>
+<td title="http-nio-8081-exec-1 thread">http-nio-8081-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.GetAllDoctorsServlet category">com.sapient.aem.web.GetAllDoctorsServlet</td>
+<td title="Message">Doctor(doctorId=2, doctorName=Dr.AnilKumar, specialization=Orthopedics, availableTiming=8AM-2PM, qualification=MBBS,MS, experienceInYears=2, mobile=9988765443, email=anilkumar@gmail.com)</td>
+</tr>
+
+<tr>
+<td>444140</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:21:59 IST 2022</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Apr 02 16:30:13 IST 2022<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Suresh logged atSat Apr 02 16:30:14 IST 2022</td>
+</tr>
+
+<tr>
+<td>40866</td>
+<td title="http-nio-8081-exec-9 thread">http-nio-8081-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:30:55 IST 2022</td>
+</tr>
+
+<tr>
+<td>153108</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:32:47 IST 2022</td>
+</tr>
+
+<tr>
+<td>185856</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:33:20 IST 2022</td>
+</tr>
+
+<tr>
+<td>229872</td>
+<td title="http-nio-8081-exec-1 thread">http-nio-8081-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:34:04 IST 2022</td>
+</tr>
+
+<tr>
+<td>256373</td>
+<td title="http-nio-8081-exec-5 thread">http-nio-8081-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:34:30 IST 2022</td>
+</tr>
+
+<tr>
+<td>279426</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:34:54 IST 2022</td>
+</tr>
+
+<tr>
+<td>338654</td>
+<td title="http-nio-8081-exec-10 thread">http-nio-8081-exec-10</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:35:53 IST 2022</td>
+</tr>
+
+<tr>
+<td>387423</td>
+<td title="http-nio-8081-exec-4 thread">http-nio-8081-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:36:42 IST 2022</td>
+</tr>
+
+<tr>
+<td>441132</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:37:35 IST 2022</td>
+</tr>
+
+<tr>
+<td>653509</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:41:08 IST 2022</td>
+</tr>
+
+<tr>
+<td>717866</td>
+<td title="http-nio-8081-exec-1 thread">http-nio-8081-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:42:12 IST 2022</td>
+</tr>
+
+<tr>
+<td>740278</td>
+<td title="http-nio-8081-exec-5 thread">http-nio-8081-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:42:34 IST 2022</td>
+</tr>
+
+<tr>
+<td>1356560</td>
+<td title="http-nio-8081-exec-10 thread">http-nio-8081-exec-10</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:52:51 IST 2022</td>
+</tr>
+
+<tr>
+<td>1724261</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:58:58 IST 2022</td>
+</tr>
+
+<tr>
+<td>1745093</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.LoginPageServlet category">com.sapient.aem.web.LoginPageServlet</td>
+<td title="Message">Admin logged atSat Apr 02 16:59:19 IST 2022</td>
+</tr>
+
+<tr>
+<td>2330274</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.sapient.aem.web.GetAllDoctorsServlet category">com.sapient.aem.web.GetAllDoctorsServlet</td>
+<td title="Message">Doctor(doctorId=2, doctorName=Dr.AnilKumar, specialization=Orthopedics, availableTiming=8AM-2PM, qualification=MBBS,MS, experienceInYears=2, mobile=9988765443, email=anilkumar@gmail.com)</td>
+</tr>
